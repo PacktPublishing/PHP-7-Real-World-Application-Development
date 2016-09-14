@@ -1,0 +1,67 @@
+.container {
+	display: block;
+	width: 800px;
+	float: left;
+}
+.mainLeft {
+	width: 300px;
+	float: left;
+}
+.mainRight {
+	width: 500px;
+	float: left;
+}
+.row {
+	width: 800px;
+	float: left;
+}
+.left {
+	width: 300px;
+	font-weight: bold;
+	font-family: helvetica;
+	float: left;
+	background-color: #DDA4F5;
+}
+.right {
+	font-family: helvetica;
+	width: 500px;
+	float: left;
+	background-color: #A5A5A6;
+}
+.buttonRight {
+	float: right;
+}
+.color0 {
+	background-color: #FFFF6F;
+}
+.color1 {
+	background-color: #E7C8F4;
+}
+.color2 {
+	background-color: #F0D0FD;
+}
+.color3 {
+	background-color: white;
+}
+.clearRow {
+    clear:both;
+}
+.fontSmall {
+	font-size: 10pt;
+}
+table {
+	width: 800px; 
+	float:left;		
+}
+th {
+	background-color: #BC45EE;
+	font-family: helvetica;
+	border: thin solid black; 
+	font-size: 10pt;
+}
+td {
+	background-color: #FDFD9F;
+	font-family: helvetica;
+	border: thin solid black; 
+	font-size: 10pt;
+}

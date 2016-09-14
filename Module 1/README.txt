@@ -1,0 +1,3 @@
+All you need to successfully implement the recipes presented in this book will be a computer,100MB of extra disk space, and a text or code editor (not a word processor!). The first chapter will cover how to set up a PHP 7 development environment. Having a web server is optional as PHP 7 includes a development web server. An Internet connection is not required, but it might be useful to download code (such as the set of PSR-7 interfaces), and review PHP 7.x documentation.
+
+Note: Code bundle is present for all the chapters except for the Appendix.

@@ -1,0 +1,450 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+
+* {direction: rtl}
+
+body {
+    font-family: "Droid Arabic Naskh", sans-serif;
+    font-size: 12px;
+    line-height: 1.7;
+}
+html, .header-language-container, .page-header,
+#search, .header-minicart .block-subtitle, .nav-primary a, .footer, .footer button,
+.cart-table .product-cart-actions .button, #co-shipping-method-form .buttons-set .button, .footer .button,
+button, input, select, table, textarea, .data-table tbody td, .data-table tfoot td
+{ font-family: "Droid Arabic Naskh", sans-serif;}
+
+
+h1, h2, .h2, .block-title h2, .block-title h3, .block-title strong, .button, h3, h4,
+label, .data-table th, .product-collateral > dl > dt, .block-layered-nav .block-content > dl > dt { font-family: "Droid Arabic Kufi", sans-serif}
+label { line-height: 2; font-weight: normal}
+
+.store-language-container, .header-language-background .form-language, .customer-account-top-link,
+.customer-account-top-link ul li{
+    float: right
+}
+
+select { font-size: 11px;}
+
+.page-header-container .store-language-container { padding: 23px 0px 10px 0px;}
+
+.customer-account-top-link { margin-right: 10px; }
+.store-language-container { margin-right: 10px;}
+.top-header-messages { float: left}
+.top-header-messages ul { padding-left: 0; list-style: none}
+.top-header-messages ul li { margin-left: 0; margin-right: 10px}
+.account-cart-wrapper { /*right: 0;*/ margin-right: 90px; float: left; top: inherit; width: auto }
+
+@media only screen and (min-width: 771px) {
+    #header-search {
+        right: auto;
+        float: left;
+        margin-left: 0;
+        left: 30px;
+        top: 174px;
+    }
+    #header-cart.skip-active { right: 0px; }
+    #header-account.skip-active { right: 15px;}
+    #header-nav { text-align: right }
+    .nav-primary a.level0 { padding: 0 19px;}
+    .account-cart-wrapper { margin-right: 0}
+}
+
+@media only screen and (max-width: 320px) {
+    .account-cart-wrapper {
+        margin-right: 85px;
+    }
+}
+
+.nav-primary a { font-size: 14px;}
+#search_mini_form .search-button { left: 0; right: auto}
+#search { padding-left: 40px; padding-right: 10px; line-height: normal}
+
+.top-header-messages, .top-header-messages ul li { float: left}
+.qtip-content { text-align: right;}
+.owl-carousel .owl-wrapper-outer { direction: ltr}
+.top-page-message{
+    font-size: 10px;
+    line-height: 18px;
+}
+.footer-links-desktop {
+    padding-right: 65px;
+    padding-left: 0;
+}
+#owl-new-products li {direction: ltr}
+
+.small-banner-with-logo {
+    margin-right: 865px;
+    margin-left: 0;
+}
+@media only screen and (min-width: 1023px) and (max-width: 1024px) {
+    .small-banner-with-logo {
+        margin-right: 635px;
+    }
+}
+
+.home-top-brands.owl-carousel .owl-wrapper-outer {
+    margin-right: 28px;
+}
+@media only screen and (min-width: 771px) {
+    .home-top-brands.owl-carousel .owl-wrapper-outer {
+        padding-left: 0px;
+        margin-right: 0;
+    }
+}
+
+ul.home-main-menu-mobile li a {
+    background: url(../images/mobile-menu-arrow-ar.png) no-repeat 2%;
+    padding: 14px 10px 7px 10px;
+    text-align: right;
+}
+.footer-email { margin-top: 8px;}
+.catblocks li a span { font-family: "Droid Arabic Kufi", sans-serif; font-weight: normal}
+.breadcrumbs li, .breadcrumbs a, .breadcrumbs span  { float: right; font-family: "Droid Arabic Kufi", sans-serif}
+.skip-nav { float: right}
+.logo { float: right}
+.logo .small { margin-right: 10px;}
+
+@media only screen and (max-width: 770px) {
+    .page-header-container .store-language-container {
+        float: left
+    }
+
+    .store-language-container {
+        margin-left: 10px;
+    }
+
+    .skip-search {
+        float: right;
+        margin-right: 35px;
+    }
+}
+/*Nexus 5 landscape and 6 landscape, S4 landscape, S5 landscape, S6 landscape, iPhone 6+, iPhone 6 and 5 Landscape*/
+@media only screen and (min-width: 412px) and (max-width: 736px) {
+    .account-cart-wrapper {
+        margin-right: 27%;
+        margin-left: 0;
+    }
+    .skip-search {
+        margin-right: 13%;
+    }
+
+}
+@media only screen and (max-width: 320px) {
+    .skip-search {
+        margin-right: 38px;
+    }
+}
+
+/*Category Pages*/
+.catalog_banner_top.tb_one, .catalog_banner_top.tb_three {
+    width: 100%;
+    text-align: right;
+    height: 180px;
+    float: right;
+    background-color: #F5F5F5;
+    padding: 15px;
+}
+.tb_image {
+    position: absolute;
+    right: auto;
+    left: 30px;
+    margin-top: 0px;
+}
+.sorter { float: right}
+.sorter > .sort-by { float: right}
+.sorter label { float: right; margin-left: 5px;}
+.sorter > .sort-by .sort-by-switcher--asc {
+    background-position: 12px -542px;
+}
+.pager { float: right}
+.category-col-left, .category-col-right { float: right}
+.category-col-right{ padding: 6px 15px 0 0}
+
+@media only screen and (min-width: 960px) {
+    .products-grid--max-4-col > li:nth-child(even), .products-grid--max-4-col > li:nth-child(3n) {
+        margin-left: 2%;
+        margin-right: 0;
+    }
+    .products-grid--max-4-col > li {
+        margin-left: 2%;
+        margin-right: 0;
+    }
+
+    .products-grid--max-4-col > li:nth-child(3n) {
+        margin-right: 0;
+        margin-left: 0;
+
+    }
+    .products-grid--max-4-col > li:nth-child(3n+1) {
+        clear: right;
+    }
+
+
+}
+.products-grid > li {
+    float: right;
+}
+
+
+.category-products h3.product-name, .category-products .products-grid .price-box{ text-align: right}
+@media only screen and (min-width: 500px) and (max-width: 770px) {
+    .products-grid > li {
+        float: right;
+        margin-left: 2%;
+        margin-right: 0;
+        width: 31.45%
+    }
+    .products-grid > li:nth-child(2n) {
+        margin-left: 2%;
+        margin-right: 0%;
+    }
+    .products-grid > li:nth-child(3n) {
+        margin-left: 0px;
+    }
+    .products-grid > li:nth-child(3n+1) {
+        clear: right;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .products-grid > li {
+        width: 46.45%;
+        margin-left: 4.5%;
+        margin-right: 0;
+    }
+    .products-grid > li:nth-child(2n) {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+}
+
+
+#narrow-by-list dd .swatch-link { float: right; margin-right: 0; margin-left: 2px;}
+#narrow-by-list dd .swatch-label { float: right; margin: 0 0 0 5px;}
+.block-layered-nav .block-subtitle--filter { padding: 7px 24px 7px 24px}
+.block-layered-nav .block-subtitle--filter::after {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.product-img-box { float: right; padding-left: 15px; padding-right: 0}
+.product-view .product-shop .price-info { float: right; text-align: right}
+.product-view .product-shop .product-name { float: right}
+.product-view .add-to-cart-wrapper, .product-view .block-related {
+    float: right;
+    clear: left;
+}
+.product-view .add-to-cart .qty-wrapper, .product-view .add-to-cart .qty-wrapper label {
+    float: right;
+    margin: 0 0 0 7px; ;
+}
+.product-view .add-to-cart-buttons { float: right}
+.short-description { clear: left}
+
+.product-options p.required {left: 0; right: auto}
+@media only screen and (max-width: 770px) {
+    .product-img-box {
+        padding-left: 0;
+    }
+    .product-view .add-to-cart .qty-wrapper, .product-view .add-to-cart .qty-wrapper label {
+        margin-right: 0px;
+    }
+    .product-view .product-shop .price-box .regular-price .price, .product-view .product-shop .price-box .special-price .price, .product-view .product-shop .price-box .full-product-price .price {
+        padding-right: 13px;
+    }
+    .product-view .mobile.price-info {float: left; padding-left: 10px;}
+    .product-view .product-shop .product-name .h1, .product-view .product-img-box .product-name h1 {
+        float: right;; padding-right: 10px;
+    }
+    .mobile-product-name { float: right; }
+}
+
+.cart .checkout-types li { float: left; text-align: left}
+.cart li.btn-continue-shopping { float: right; text-align: right}
+.cart li.btn-continue-shopping .button2.btn-continue { float: right}
+.cart .cart-totals table { float: left; width: 28%}
+.cart .cart-payment-info { width: 72%}
+.cart .cart-payment-info .our-services, .cart .cart-payment-info .payment-methods, .cart .cart-payment-info .need-help {
+    float: right; text-align: right;
+}
+.cart .cart-payment-info .our-services { margin-right: 0; margin-left: 4%}
+.service-icon, .service-details { float: right}
+.need-help { float: right; margin-right: 0; margin-left: 4%}
+.cart-totals-wrapper { padding-right: 0 !important;}
+.need-help, .our-services, .cart .payment-methods { border-right: none; border-left: 1px solid #C7C7C7}
+.cart .page-title h1 { float: right}
+.checkout-types { float: left}
+.cart-table thead th, .cart-table tbody td { padding: 10px 40px; font-family: "Droid Arabic Kufi", sans-serif}
+.cart-forms, .cart-totals-wrapper, .crosssell { float: left; padding-left: 0; padding-right: 20px;}
+#discount-coupon-form label, .cart .giftcard label {font-family: "Droid Arabic Kufi", sans-serif; text-align: right}
+.cart .cart-totals table { font-family: "Droid Arabic Naskh", sans-serif}
+.cart-table .btn-empty { float: right; font-family: "Droid Arabic Kufi", sans-serif}
+.cart-table span.or {font-size: 13px; font-family: "Droid Arabic Kufi"; padding: 7px 15px; float: left}
+.button2.btn-update, .button2.btn-continue { float: left;}
+.button2 span, .button2 span span { font-family: "Droid Arabic Kufi", sans-serif}
+.cart .cart-totals table tfoot td { font-size: 18px;}
+
+@media only screen and (max-width: 770px) {
+    .cart .cart-totals table { float: right; width: 100%}
+    .cart .cart-totals table tfoot td { width: 65%; text-align: left}
+    .cart .cart-totals table tbody tr:last-child td { text-align: left}
+    .cart .cart-payment-info { width: 100%}
+    .cart .cart-payment-info-mobile .full-security h4, .cart .cart-payment-info-mobile .payment-methods h4, .cart .cart-payment-info-mobile .our-services h4 {
+        text-align: right;
+    }
+
+    .cart .page-title h1 { float: none; font-family: "Droid Arabic Kufi", sans-serif}
+    .checkout-types { float: none}
+    .cart-table .product-cart-info .btn-remove {
+        float: left;
+    }
+
+    .cart-table .product-cart-image{ float: right}
+    .item-options dt {float: right; clear: right; font-family: "Droid Arabic Kufi", sans-serif; font-weight: normal; font-size: 12px}
+    .item-options dd { float: right; font-family: "Droid Arabic Naskh", sans-serif; font-size: 12px; padding-right: 10px;}
+    .cart-table .product-cart-info, .cart-table td[data-rwd-label] { text-align: right}
+    #discount-coupon-form .field-wrapper, .cart .giftcard .field-wrapper { display: block}
+    .opc.opc-firststep-login #opc-login.section .step-title h2 { float: right}
+}
+
+@media only screen and (max-width: 599px) {
+    .need-help, .our-services, .payment-methods {
+        margin-left: 0;
+        margin-right: 3%;
+    }
+    .cart .cart-payment-info-mobile .our-services h4 {
+        margin-right: 15px;
+    }
+    .service-icon, .service-details {
+        margin-right: 12px;
+    }
+    .need-help, .our-services, .cart .payment-methods { border: 0}
+}
+
+.opc .section .step-title .number, .opc .section.allow.active .step-title .number, .no-touch .opc .section.allow:hover .step-title .number {
+    left: auto;
+    right: 10px;
+}
+.opc .section .step-title h2 {
+    float: right;
+    margin: 0 45px 0 4px;
+}
+.opc.opc-firststep-login .section .step-title h2 {
+    margin-right: 0;
+}
+
+.opc .buttons-set p.required {
+    float: left;
+}
+
+.mini-products-list .product-image { float: right}
+.mini-products-list .product-details { margin-right: 60px}
+.mini-products-list .btn-remove, .mini-products-list .btn-edit { float: left}
+.opc .buttons-set button.button { float: right; margin-right: 0; margin-left: 10px;}
+
+.fieldset p.required { float: left; display: none}
+.form-list .control div.input-box {
+    float: right;
+    background: #F4F4F4;
+}
+.form-list .control input.checkbox {
+    float: right;
+    margin: 14px 14px 11px 0;
+}
+.form-list .control input.radio, .form-list .control input.checkbox, .sp-methods dt input.radio, .sp-methods dt input.checkbox, #checkout-shipping-method-load .sp-methods dd input.radio, #checkout-shipping-method-load .sp-methods dd input.checkbox, #co-shipping-method-form .sp-methods dd input.radio, #co-shipping-method-form .sp-methods dd input.checkbox, .product-options ul.options-list input.radio, .product-options ul.options-list input.checkbox {
+    float: right;
+    margin-top: 16px;
+    margin-right: 15px;
+    margin-left: -40px;
+}
+.form-list .control label, .sp-methods dt label, #checkout-shipping-method-load .sp-methods dd label, #co-shipping-method-form .sp-methods dd label, .product-options ul.options-list label {
+    padding: 6px 40px 6px 10px;
+}
+.sp-methods .form-list li {
+    margin: 0px 30px 8px;
+}
+
+.block-progress dt, .sp-methods dt  { font-family: "Droid Arabic Kufi", sans-serif;}
+
+.block-progress dd { margin-left: 0; margin-right: 15px;}
+#checkout-review-table thead > tr > th:first-child { text-align: right}
+.linearize-table tbody td[data-rwd-label], .linearize-table tfoot td:nth-child(2n) { text-align: right}
+.linearize-table tfoot td:nth-child(2n+1) { clear: right}
+.linearize-table tfoot td { float: right}
+.opc .buttons-set .back-link { float: left}
+h2.brand-name { text-align: right; font-family: "Droid Arabic Kufi", sans-serif}
+.category-products h3.product-name { font-family: "Droid Arabic Naskh", sans-serif}
+.zoomWindow { right: 393px}
+
+@media only screen and (min-width: 771px) {
+    .customer-account-login .col2-set .col-1 {
+        padding-right: 60px;
+    }
+    .customer-account-login .col2-set .col-1 .content { padding-right: 10px;}
+    .customer-account-login .col2-set .buttons-set { text-align: right}
+}
+.simple-header-page .page-title h1 { text-align: right;}
+@media only screen and (max-width: 770px) {
+    .simple-header-page .col2-set .col-1 .content { padding-right: 14px;}
+    .simple-header-page .page-title h1 { text-align: center;}
+}
+
+.block-layered-nav .block-content > dl > dt:after  { left: auto; right: 6px; }
+.block-layered-nav .block-content.accordion-open > dl > dt.current:after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid #000000;
+}
+@media only screen and (max-width: 770px) {
+    .block-layered-nav .block-content > dl > dt:after  { left: auto; right: 6px; border-left: none; border-right: 4px solid #000000 }
+    .block-layered-nav .block-content.accordion-open > dl > dt.current:after {
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+    }
+
+    .select-style {
+        overflow: hidden;
+        background: url("../images/plus.png") 6% / 11% no-repeat #ffffff;
+    }
+
+    .sort-by.mobile select { font-size: 12px}
+    .fa.fa-plus { float: left}
+    h3.filter-popup-header, .mfp-content dl dt, .mfp-content dl dd { text-align: right}
+    .block-layered-nav .block-content { margin-top: 0}
+}
+
+.block-layered-nav .block-content > dl > dt { padding-left: 0; padding-right: 22px;}
+.mfp-close { right: auto; left: 0;}
+
+.opc-wrapper-opc .opc-col-left, .opc-wrapper-opc .opc-col-center, .opc-wrapper-opc .opc-col-right { float: right; padding-left: 25px; padding-right: 0}
+.opc-wrapper-opc #opc-review-block { right: auto; left: 1px}
+.opc-wrapper-opc label, .opc-wrapper-opc .opc-col-left .fields .input-box { float: right; text-align: right;}
+.opc-wrapper-opc .opc-col-left input[type="text"], .opc-wrapper-opc .opc-col-left input[type="password"] { padding-right: 5px;}
+
+.opc-wrapper-opc .opc-col-left .control { text-align: right; padding-right: 21px;}
+.opc-wrapper-opc .opc-col-left .control label { padding: 10px 15px 6px 10px;}
+.opc-wrapper-opc .validation-advice { text-align: right}
+.md-modal-header .close { left: 10px;}
+.opc-wrapper-opc h3 { text-align: right}
+@media only screen and (max-width: 770px) {
+    .opc-wrapper-opc #opc-review-block {
+        right: 1px; left: 0;
+    }
+    .opc-wrapper-opc .opc-col-left, .opc-wrapper-opc .opc-col-center, .opc-wrapper-opc .opc-col-right { padding-left: 0}
+}
+@media only screen and (max-width: 499px) {
+    .skip-cart .count {
+        margin-left: 28px;
+        top: -56px;
+    }
+}
+@media only screen and (min-width: 771px) {
+    #header-nav {
+        margin-top: 94px;
+    }
+}
+.altaf { float: right; }
+

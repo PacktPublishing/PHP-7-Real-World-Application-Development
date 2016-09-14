@@ -1,0 +1,9 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="simple">
+      <file>SimpleTest.php</file>
+      <file>SimpleDbTest.php</file>
+      <file>SimpleClassTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>

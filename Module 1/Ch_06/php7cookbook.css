@@ -1,0 +1,39 @@
+.container {
+	width: 600px;
+	float: left;
+}
+h1 {
+	background-color: #FFFF6F;
+}
+table {
+	width: 600px; 
+	float:left;		
+}
+.label {
+	background-color: #84BCF2;
+	font-family: helvetica;
+	font-size: 10pt;
+	border: thin solid black; 
+	text-align: right;
+	right-margin: 50px;
+}
+.content {
+	background-color: #FDFD9F;
+	font-family: helvetica;
+	border: thin solid black; 
+}
+.error {
+	background-color: #F5E9E9;
+	font-family: helvetica;
+	font-size: 10pt;
+	border: thin solid black;
+	color: red; 
+}
+.menuItem {
+	width: 100px;
+	float: left;
+}
+hr {
+	width: 100%;
+	float: left;
+}

